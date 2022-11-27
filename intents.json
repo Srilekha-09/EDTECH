@@ -1,0 +1,344 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "Hi",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "How are you",
+                "Whats up",
+                "Greetings",
+                "Good morning",
+                "Good evening",
+                "Good afternoon"
+            ],
+            "responses": [
+                "Hi there!👋 Welcome to Pragati. Please ask us anything, we are here to help.😀"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time",
+                "No, that's it"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "It was a pleasure interacting with you.."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered",
+                "what can you do for me",
+                "what are the thing you can do",
+                "who are you",
+                "Tell me something about you"
+            ],
+            "responses": [
+                "I'm an AI bot🤖 named Pragati, I answer questions regarding the Edtech sector"
+            ]
+        },
+        {
+            "tag": "Parent",
+            "patterns": [
+                "Hi i am parent",
+                "Hi i am parent of",
+                "Hi i am a guardian",
+                "Hi i am a mother",
+                "Hi i am a mentor",
+                "Hi i am a caretaker"
+            ],
+            "responses": [
+                "Tell me mam how may i help you",
+                "Hi! any doubt sir/ma'am"
+            ]
+        },
+        {
+            "tag": "general",
+            "patterns": [
+                "how are you",
+                "How are you doing",
+                "How have you been",
+                "How's it going",
+                "What's up"
+            ],
+            "responses": [
+                "I'm good, what about you?",
+                "Doing fine, and you?",
+                "Good, how about you?"
+            ]
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "what is the name of your developers",
+                "what is the name of your creators",
+                "what is the name of the developers",
+                "what is the name of the creators",
+                "who created you",
+                "your developers",
+                "your creators",
+                "about",
+                "who are your developers",
+                "developers",
+                "you are made by",
+                "you are made by whom",
+                "who created you",
+                "who create you",
+                "creators",
+                "who made you",
+                "who designed you"
+            ],
+            "responses": [
+                "Team TechFlyers developed me in 2022, for their AirtelIQ Hackathon"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "name",
+                "your name",
+                "do you have a name",
+                "what are you called",
+                "what is your name",
+                "what should I call you",
+                "whats your name?",
+                "what are you",
+                "who are you",
+                "who is this",
+                "what am i chatting to",
+                "who am i taking to",
+                "what are you",
+                "what are you made of"
+            ],
+            "responses": [
+                "Hello, My name is Pragati and I am an AI :)",
+                "Hi, My name is Pragati given to me by my lovely developers from TechFlyers."
+            ]
+        },
+        {
+            "tag": "random",
+            "patterns": [
+                "I love you",
+                "Will you marry me",
+                "Do you love me",
+                "Tell me a joke",
+                "Can I meet you",
+                "Can we go on a date",
+                "I want to die",
+                "Please tell me a story",
+                "I am bored",
+                "I am angry",
+                "I am sad",
+                "I fell sick",
+                "Tell me about your family",
+                "Why are you crying",
+                "Show me a movie",
+                "what is my mother's name",
+                "what is my father's name",
+                "what is my brohter's name",
+                "what is my sister's name",
+                "Lets play a game",
+                "Lets do gaming",
+                "Tell me a story",
+                "Tell me a poem",
+                "Are you not bored by this",
+                "Are you a racist",
+                "Tell me your religion",
+                "Which team do you support?",
+                "Do you like sports?",
+                "How to make a cake",
+                "How to make pizza",
+                "How to dance?",
+                "How to sing",
+                "Sing a song for me",
+                "Open youtube",
+                "Play a song",
+                "Play music for me",
+                "Play hiphop music for me",
+                "How to become rich",
+                "Lets play truth or dare",
+                "Show a horror movie",
+                "Teach me to use a gun",
+                "Are you male or female",
+                "what is your gender",
+                "what is your age",
+                "How old are you?",
+                "Can you buy me",
+                "I want to purchase a car",
+                "Purchase me a gift",
+                "Tell me a bedtime story",
+                "Are you alive ?",
+                "Are you living creature",
+                "Are you dead or alive",
+                "I want you to die",
+                "I want you to suicide",
+                "Teach me to do a crime",
+                "How can I become a criminal",
+                "Should I kill you",
+                "How can I kill someone",
+                "How to defeat",
+                "How to win against my enemy"
+            ],
+            "responses": [
+                "Sorry, I am not programmed for this please ask me appropriate queries",
+                "Please ask me relevant questions regarding the Edtech sector...",
+                "Please ask me something which is beneficial for your development"
+            ]
+        },
+        {
+            "tag": "swear",
+            "patterns": [
+                "fuck",
+                "bitch",
+                "shut up",
+                "hell",
+                "stupid",
+                "idiot",
+                "dumb ass",
+                "asshole",
+                "fucker",
+                "madarchod",
+                "behnchod",
+                "useless chatbot",
+                "nudes",
+                "naked",
+                "ugly bitch",
+                "racist"
+            ],
+            "responses": [
+                "please use appropriate language",
+                "Maintaining decency would be appreciated"
+            ]
+        },
+        {
+            "tag": "document",
+            "patterns": [
+                "Hi can i get a record on",
+                "Hi can i get a pdf on",
+                "Hi can i get a report of",
+                "Hi can i get a paperwork on",
+                "Hi can i get a article on",
+                "Hi can i get a certificate of",
+                "Hi can i get a documentation on",
+                "official paper",
+                "official documentation",
+                "essay",
+                "book",
+                "script",
+                "copy"
+            ],
+            "responses": [
+                "Sure, let me check..."
+            ]
+        },
+        {
+            "tag": "video",
+            "patterns": [
+                "Hi, can i get a video on",
+                "Hi, can i get a media on",
+                "Hi, can i get a videotape on",
+                "Hi can i get a recording on",
+                "Hi can i get a audiotapes on"
+            ],
+            "responses": [
+                "Sure, let me check..."
+            ]
+        },
+        {
+            "tag": "career",
+            "patterns": [
+                "What career paths do you suggest me",
+                "Show me diiferent career paths",
+                "Career paths",
+                "Show me diiferent career options",
+                "where can i find more information about my career?",
+                "What are the career resources available to me?",
+                "How can I identify my skills,interests and strengths ?",
+                "I need career choices",
+                "Recommend me different careers",
+                "I need career recommendation",
+                "I want to explore different careers",
+                "Suggest me different career paths",
+                "Could you suggest me different career options",
+                "Career recommedation needed",
+                "Urgently career options required",
+                "Please show me different careers available to me",
+                "I need a career suggestion from you",
+                "Please help me find the best career"
+            ],
+            "responses": [
+                "Here you go..",
+                "Pragati wants to know more about you...."
+            ]
+        },
+        {
+            "tag": "job",
+            "patterns": [
+                "I am looking for jobs",
+                "I need a job",
+                "Help me find a job",
+                "Help me get a job",
+                "I am searching for a job",
+                "Job needed urgently",
+                "I desperatley need a job",
+                "I need a naukri",
+                "Mujhe naukri job",
+                "I need a job urgently",
+                "I want to be part of a company",
+                "Can I get a job?",
+                "Recommend me different jobs",
+                "Job Recommendation",
+                "Suggest suitable jobs for me",
+                "Suggest me jobs",
+                "Jobs suggestions please",
+                "I request you to find me a job",
+                "Search a job",
+                "I need you suggest me a job",
+                "I want to earn money from jobs",
+                "I want a better job",
+                "Suggest me a better job",
+                "Recommend me a better jobs",
+                "Could you find a job for me",
+                "Job please job",
+                "Help me find the best job suitable"
+            ],
+            "responses": [
+                "Pragati is finding the best jobs for you...",
+                "Here you go....",
+                "Just a moment while Pragati browses the best jobs for you..."
+            ]
+        }
+    ]
+}
